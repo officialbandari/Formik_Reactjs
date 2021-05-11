@@ -1,0 +1,11 @@
+BASIC NPM'S TO INSTALL 
+
+Formik
+npm i formik
+
+validationSchema Yup package
+ npm install yup --save
+
+
+DateView 
+npm install react-datepicker --save
