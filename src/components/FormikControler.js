@@ -4,6 +4,7 @@ import Textarea from "./Textarea";
 import Select from "./Select";
 import RatioButtons from "./RatioButtons";
 import CheckboxGroup from "./CheckboxGroup";
+import DatePicker from "./DatePicker";
 
 const FormikControler = (props) => {
   const { control, ...rest } = props;
@@ -19,6 +20,7 @@ const FormikControler = (props) => {
     case "checkbox":
       return <CheckboxGroup {...rest} />;
     case "date":
+      return <DatePicker {...rest} />;
     default:
       return null;
   }
